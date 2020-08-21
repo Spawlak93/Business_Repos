@@ -31,7 +31,7 @@ namespace ChallengeTwoClassLibrary
         {
             get
             {
-                if (DateOfIncident.AddDays(30) >= DateOfClaim)
+                if (DateOfIncident.AddDays(30) >= DateOfClaim && DateOfIncident <= DateOfClaim)
                     return true;
                 return false;
             }

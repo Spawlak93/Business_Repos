@@ -397,11 +397,11 @@ namespace ChallengeTwoProgram
 
         private void Seed()
         {
-            _claimRepo.AddClaimToRepo(new Claim(1, ClaimType.Home, "drop", 1111.90m, new DateTime(11, 11, 16), new DateTime(11, 12, 12)));
-            _claimRepo.AddClaimToRepo(new Claim(2, ClaimType.Car, "EXPLOSIONS ON THE SUN", 1111.90m, new DateTime(11, 12, 11), new DateTime(11, 12, 12)));
-            _claimRepo.AddClaimToRepo(new Claim(3, ClaimType.Theft, "Stolen Grain Of Rice", .01m, new DateTime(11, 10, 13), new DateTime(11, 12, 12)));
-            _claimRepo.AddClaimToRepo(new Claim(4, ClaimType.Home, "drop", 1111m, new DateTime(11, 10, 13), new DateTime(11, 12, 12)));
-            _claimRepo.AddClaimToRepo(new Claim(5, ClaimType.Home, "drop", 1111.9m, new DateTime(11, 10, 13), new DateTime(11, 12, 12)));
+            _claimRepo.AddClaimToRepo(new Claim(1, ClaimType.Home, "drop", 11111111.99m, new DateTime(2020, 12, 16), new DateTime(2020, 12, 12)));
+            _claimRepo.AddClaimToRepo(new Claim(2, ClaimType.Car, "EXPLOSIONS ON THE SUN", 1111.90m, new DateTime(2020, 12, 11), new DateTime(2020, 12, 12)));
+            _claimRepo.AddClaimToRepo(new Claim(3, ClaimType.Theft, "Stolen Grain Of Rice", .01m, new DateTime(2020, 10, 19), new DateTime(2020, 11, 12)));
+            _claimRepo.AddClaimToRepo(new Claim(4, ClaimType.Home, "drop", 50m, new DateTime(2020, 09, 22), new DateTime(2020, 10, 22)));
+            _claimRepo.AddClaimToRepo(new Claim(5, ClaimType.Home, "drop", 1111.9m, new DateTime(2020, 10, 13), new DateTime(2020, 12, 12)));
 
         }
 
